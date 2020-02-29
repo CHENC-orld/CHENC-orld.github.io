@@ -14,6 +14,8 @@
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+    
+    <link rel="stylesheet" href="/live2d/css/live2d.css" />
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -24,7 +26,7 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   
-<link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
 <meta name="generator" content="Hexo 4.2.0"></head>
 
@@ -63,6 +65,46 @@
 </header>
       <div class="outer">
         <section id="main">
+  
+    <article id="post-firstday" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/firstday/" class="article-date">
+  <time datetime="2020-02-29T11:04:31.436Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/firstday/">博客出生日</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>欢迎来到我的博客，这将是一个怎样的博客呢？我也不知道……</p>
+<h2 id="开心三件事"><a href="#开心三件事" class="headerlink" title="开心三件事"></a>开心三件事</h2><h3 id="做运动"><a href="#做运动" class="headerlink" title="做运动"></a>做运动</h3><p>20分钟的运动让人神清气爽</p>
+<h3 id="洗澡"><a href="#洗澡" class="headerlink" title="洗澡"></a>洗澡</h3><p>洗个澡除去身体的泥垢</p>
+<h3 id="搭网站"><a href="#搭网站" class="headerlink" title="搭网站"></a>搭网站</h3><p>搭个网站，或许还能复制个看板小萌宠</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/02/29/firstday/" data-id="ck77i0d0s0000n8wl7qjdfqvn" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
   
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -144,6 +186,10 @@
       <ul>
         
           <li>
+            <a href="/2020/02/29/firstday/">博客出生日</a>
+          </li>
+        
+          <li>
             <a href="/2020/02/29/hello-world/">Hello World</a>
           </li>
         
@@ -155,7 +201,21 @@
 </aside>
         
       </div>
-      <footer id="footer">
+
+</div>
+  
+</div>
+
+
+//charu2d
+
+<div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+    <div class="hide-button">隐藏</div>
+
+
+<footer id="footer">
   
   <div class="outer">
     <div id="footer-info" class="inner">
@@ -184,13 +244,21 @@
 <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-
-
 <script src="/js/script.js"></script>
 
 
 
+<script type="text/javascript">
+    var message_Path = '/live2d/'
+    var home_Path = 'https://haremu.com/'  //此处修改为你的域名，必须带斜杠
+</script>
+<script type="text/javascript" src="/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="/live2d/js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "/live2d/model/tia/model.json");
+</script>
 
-  </div>
+
+
 </body>
 </html>
